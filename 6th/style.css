@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: navy;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Sections */
+section, .hero {
+    padding: 20px;
+    background: lightblue;
+}
+
+/* Grid */
+.grid, .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* Flex */
+.box, .projects {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Cards */
+.grid div, .projects div, .box p {
+    background: lightgray;
+    padding: 20px;
+}
+
+/* Images */
+img {
+    width: 100%;
+}
+
+/* Hover */
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Button */
+button {
+    background: navy;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    header, .box, .projects {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .grid, .gallery {
+        grid-template-columns: 1fr;
+    }
+}

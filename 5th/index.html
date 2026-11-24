@@ -1,0 +1,26 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Asia Travel Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Explore Asia</h1>
+    <p>Discover beautiful places around Asia</p>
+    <div class="gallery">
+        <img src="https://media.istockphoto.com/id/1381637603/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=w64j3fW8C96CfYo3kbi386rs_sHH_6BGe8lAAAFS-y4=" onclick="showImage(0)" alt="Kerala, India">
+        <img src="img2.jpg" onclick="showImage(1)" alt="Rajastan, India">
+        <img src="img3.jpg" onclick="showImage(2)" alt="Uttarpradesh, India">
+        <img src="img4.jpg" onclick="showImage(3)" alt="Himachal Pradesh, India">
+        <img src="img5.jpg" onclick="showImage(4)" alt="Rajasthan, India"> 
+        <img src="img6.jpg" onclick="showImage(5)" alt="Sikkim, India">
+    </div>
+    <div class="slideshow">
+        <img id="slide" src="img1.jpg" alt="Selected travel destination">
+        <br>
+        <button onclick="previous()">Previous</button>
+        <button onclick="next()">Next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

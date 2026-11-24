@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+    display: block;
+    font-size: 13px;
+}
